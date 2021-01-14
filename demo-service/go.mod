@@ -1,11 +1,11 @@
-module laracom/demo-service
+module github.com/chuckchen88/laracom/demo-service
 
 go 1.14
 
 require (
-	github.com/chuckchen88/laracom/demo-service v0.0.0-20210107081306-9f94bf9c58d6
 	github.com/coreos/etcd v3.3.25+incompatible // indirect
 	github.com/coreos/go-systemd v0.0.0-20191104093116-d3cd4ed1dbcf // indirect
+	github.com/dustin/go-humanize v1.0.0 // indirect
 	github.com/go-log/log v0.2.0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.4.3
