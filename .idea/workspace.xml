@@ -3,13 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="7d42a3e9-25b7-45e3-a5f2-2e1542cc957a" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/demo-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-cli/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/user-cli/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-cli/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/user-cli/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-cli/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-cli/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/handler/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/handler/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/proto/user/user.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/proto/user/user.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/proto/user/user.proto" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/proto/user/user.proto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
