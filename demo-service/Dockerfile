@@ -5,7 +5,7 @@ FROM golang:1.14-alpine as builder
 
 # 启用 Go Modules 并设置 GOPROXY
 ENV GO111MODULE on
-ENV GOPROXY https://goproxy.io,direct
+ENV GOPROXY https://goproxy.cn
 
 # 更新安装源
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
@@ -29,7 +29,8 @@ RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o laracom-demo-serv
 FROM alpine:latest
 
 # 更新安装源
-RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
+#RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
+RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/repositories
 
 # 安装相关软件
 RUN apk update && apk add --no-cache bash supervisor ca-certificates
