@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d42a3e9-25b7-45e3-a5f2-2e1542cc957a" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/user-service/repo/password.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/handler/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/handler/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/handler/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/handler/user.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/proto/user/extensions.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/proto/user/extensions.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/proto/user/user.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/proto/user/user.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/proto/user/user.proto" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/proto/user/user.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/repo/repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/repo/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/proto/user/extensions.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/repo/password.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/repo/password.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/repo/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/repo/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/service/token.go" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/service/token.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +29,6 @@
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
     <option name="useGoPathFromSystemEnvironment" value="false" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1m8yO7Rm3AH6auZlpOgoJIQEgBi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
