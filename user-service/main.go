@@ -9,6 +9,7 @@ import (
 	repository "github.com/chuckchen88/laracom/user-service/repo"
 	"github.com/chuckchen88/laracom/user-service/service"
 	"github.com/micro/go-micro"
+	_ "github.com/micro/go-micro/broker/nats"
 	"log"
 )
 
@@ -38,9 +39,11 @@ func main() {
 		micro.Version("latest"),  // 新增接口版本参数
 	)
 	srv.Init()
+	// 获取 Broker 实例
+	pubSub := srv.Server().Options().Broker
 
 	// 注册处理器
-	pb.RegisterUserServiceHandler(srv.Server(), &handler.UserService{repo, resetRepo,token})
+	pb.RegisterUserServiceHandler(srv.Server(), &handler.UserService{repo, resetRepo, token, pubSub})
 
 	// 启动用户服务
 	if err := srv.Run(); err != nil {
