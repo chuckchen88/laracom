@@ -4,6 +4,9 @@
     <list default="true" id="7d42a3e9-25b7-45e3-a5f2-2e1542cc957a" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
